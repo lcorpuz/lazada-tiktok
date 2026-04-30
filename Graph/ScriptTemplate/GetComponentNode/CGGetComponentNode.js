@@ -1,0 +1,1 @@
+let APJS=require("../../../amazingpro"),BaseNode=require("../Utils/BaseNode").BaseNode;class CGGetComponentNode extends BaseNode{constructor(){super()}getOutput(e){return this.inputs[0]()}}exports.CGGetComponentNode=CGGetComponentNode;

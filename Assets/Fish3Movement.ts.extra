@@ -1,0 +1,22 @@
+[
+  {
+    "guid": {
+      "a": "97bec282-0629-0520-91dc-bc464d3474bd",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "Fish3Movement",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

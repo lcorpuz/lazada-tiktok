@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "19ebea43-9bf7-4c15-2945-3ba2ec098227",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "fish2",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\LianeCorpuz\\OneDrive - The SVEN Group\\Desktop\\WORK\\2026\\Tiktok Effects\\Lazada\\fish2.png",
+    "references": []
+  }
+]

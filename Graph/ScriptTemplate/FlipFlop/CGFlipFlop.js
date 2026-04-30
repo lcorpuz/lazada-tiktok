@@ -1,0 +1,1 @@
+let BaseNode=require("../Utils/BaseNode").BaseNode;class CGFlipFlop extends BaseNode{constructor(){super(),this.index=1,this.outputs[2]=!1}execute(e){this.index=Math.round((this.index+1)%2),this.outputs[2]=this.index<.5,this.nexts[this.index]&&this.nexts[this.index]()}resetOnRecord(e){this.index=1,this.outputs[2]=!1}}exports.CGFlipFlop=CGFlipFlop;

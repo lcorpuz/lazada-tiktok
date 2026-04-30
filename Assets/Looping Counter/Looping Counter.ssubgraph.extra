@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "934fc2f9-aa14-c270-1d0c-021445dc7958",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "Looping Counter",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "assetPackageID": "7255444182825746433",
+    "resourceFilePath": "C:\\Users\\LianeCorpuz\\AppData\\Roaming\\EffectHouse\\Instances\\Instance1\\EHpackage\\7255444182825746433\\Looping Counter.ssubgraph",
+    "references": [],
+    "combinedWithNodeLibary": true,
+    "assetID": "7255444182825746433"
+  }
+]

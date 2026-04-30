@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "0ef6be4a-4574-04ff-ff0f-b865612320f0",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "hook",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\LianeCorpuz\\OneDrive - The SVEN Group\\Desktop\\WORK\\2026\\Tiktok Effects\\Lazada\\hook.png",
+    "references": []
+  }
+]

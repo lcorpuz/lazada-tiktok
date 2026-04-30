@@ -1,0 +1,42 @@
+{
+	"name": "Effect Reset",
+	"id": "c8a9b786-139f-c4e4-a793-03edae0a3818",
+	"inputs": [
+		{
+			"name": "Enter",
+			"type": "Pulse",
+			"description": "The input execution that triggers this node",
+			"displayType": "Exec",
+			"nameKey": "graph_effect_reset_input_enter",
+			"descriptionKey": "graph_effect_reset_input_enter_description",
+			"displayTypeKey": "graph_type_exec"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Next",
+			"type": "Pulse",
+			"description": "Execute the next node",
+			"displayType": "Exec",
+			"nameKey": "graph_effect_reset_output_next",
+			"descriptionKey": "graph_effect_reset_output_next_description",
+			"displayTypeKey": "graph_type_exec"
+		}
+	],
+	"js": "CGReset.js",
+	"version": "1.0.0",
+	"nodeEvent": [
+		"beforeStart",
+		"onUpdate"
+	],
+	"category": "Utility",
+	"description": "When it executes, all the graph logic and relevant engine capabilities will reset. The result is the same as the \"reset on record\" feature.",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"nameKey": "graph_effect_reset_name",
+	"categoryKey": "graph_category_utility",
+	"descriptionKey": "graph_effect_reset_description"
+}

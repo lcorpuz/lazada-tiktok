@@ -1,0 +1,1 @@
+let BaseNode=require("../Utils/BaseNode").BaseNode,APJS=require("../../../amazingpro");class CGOnStart extends BaseNode{constructor(){super()}onStart(e){void 0!==this.nexts[0]&&this.nexts[0]()}}exports.CGOnStart=CGOnStart;

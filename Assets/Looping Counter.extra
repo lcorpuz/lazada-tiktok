@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "82f645e5-37ee-7929-c059-1d898f790f1a",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Looping Counter",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "references": []
+  }
+]

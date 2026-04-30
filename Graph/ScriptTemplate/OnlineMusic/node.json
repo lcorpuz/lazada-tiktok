@@ -1,0 +1,42 @@
+{
+	"name": "Sound Library",
+	"id": "72119df6-edca-f84d-0ef2-ef4d17b9d95b",
+	"inputs": [
+		{
+			"name": "Test Music",
+			"description": "The audio input for test and preview. When the effect is uploaded to mobile end, the test audio stream will be disabled, and people can manually choose music from online Audio Library to play.",
+			"type": "Audio Stream",
+			"displayType": "Audio Stream",
+			"nameKey": "graph_sound_library_input_testmusic",
+			"descriptionKey": "graph_sound_library_input_testmusic_description",
+			"displayTypeKey": "graph_type_audiostream"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Audio",
+			"description": "Execute this node, connect to a speaker to finish the connection and play the test audio or connect to a Detection Output to finish the connection without playing audio.",
+			"type": "Audio Stream",
+			"displayType": "Audio Stream",
+			"nameKey": "graph_sound_library_output_audio",
+			"descriptionKey": "graph_sound_library_output_audio_description",
+			"displayTypeKey": "graph_type_audiostream"
+		}
+	],
+	"category": "Audio",
+	"description": "Let people play music from mobile-end Sound Library in an effect. You can connect this node to audio detection nodes, such as Volume Detection and Pitch Detection. One project can only have one Online Sound node.",
+	"js": "CGOnlineMusic.js",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"builtinClass": "AudioGeneralNode",
+	"audioNodeName": "MusicSourceNode",
+	"SDKVersion": "11.6.0",
+	"version": "1.1.1",
+	"onlineWebsite": "graph_sound_library_website",
+	"nameKey": "graph_sound_library_name",
+	"categoryKey": "graph_category_audio",
+	"descriptionKey": "graph_sound_library_description"
+}

@@ -1,0 +1,1 @@
+let BaseNode=require("../Utils/BaseNode").BaseNode,APJS=require("../../../amazingpro");class CGLessThan extends BaseNode{constructor(){super()}getOutput(){return this.inputs[0]()<this.inputs[1]()}}exports.CGLessThan=CGLessThan;

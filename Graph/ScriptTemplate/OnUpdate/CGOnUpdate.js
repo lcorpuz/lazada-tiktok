@@ -1,0 +1,1 @@
+let BaseNode=require("../Utils/BaseNode").BaseNode,APJS=require("../../../amazingpro");class CGOnUpdate extends BaseNode{constructor(){super()}onUpdate(e,s){this.outputs[1]=s,void 0!==this.nexts[0]&&this.nexts[0]()}}exports.CGOnUpdate=CGOnUpdate;
