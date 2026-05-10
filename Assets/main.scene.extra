@@ -146,6 +146,24 @@
   },
   {
     "guid": {
+      "a": "8f9abac4-a539-3871-8e0a-d524905d9b66",
+      "b": ""
+    },
+    "objGuid": "Guid(10974291562266305590, 5712518527646034616)",
+    "extraType": "UserComponentEditor",
+    "name": "PrizeRandomizer",
+    "version": "0.1.0",
+    "rttiType": "PrizeRandomizer",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "resGuid": "8d400b55-530c-aeb2-520d-67c370722c30"
+  },
+  {
+    "guid": {
       "a": "c8d71f97-31ad-53ef-cd64-e4c35ed4053a",
       "b": ""
     },
@@ -2213,23 +2231,5 @@
     "ellipseX": 1,
     "ellipseY": 1,
     "alphaNOPM": true
-  },
-  {
-    "guid": {
-      "a": "8f9abac4-a539-3871-8e0a-d524905d9b66",
-      "b": ""
-    },
-    "objGuid": "Guid(10974291562266305590, 5712518527646034616)",
-    "extraType": "UserComponentEditor",
-    "name": "PrizeRandomizer",
-    "version": "0.1.0",
-    "rttiType": "PrizeRandomizer",
-    "editable": true,
-    "_lazyUpgrateVersion": "0.0.0",
-    "extendedInfo": {
-      "isVisibleInInspector": true,
-      "expanded": true
-    },
-    "resGuid": "8d400b55-530c-aeb2-520d-67c370722c30"
   }
 ]

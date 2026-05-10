@@ -1,6 +1,6 @@
 {
   "name": "Untitled",
-  "lastModified": "Sun, 10 May 2026 11:05:08 GMT",
+  "lastModified": "Sun, 10 May 2026 12:00:03 GMT",
   "version": "5.10.0",
   "renderNames": {
     "0": "Default Layer",
@@ -68,9 +68,9 @@
     "62": "Layer 62",
     "63": "Layer 63"
   },
-  "durationToCreate": 1049625637,
-  "durationCreation": 144960434,
-  "durationBackground": 90295187,
+  "durationToCreate": 1052920700,
+  "durationCreation": 144979134,
+  "durationBackground": 90296098,
   "effectHint": "",
   "templateID": "templateID_none",
   "overwriteBuiltinGAN": 1,
@@ -97,9 +97,7 @@
     "resourceUrl": "./BuiltinResource/preview/video/preview_face/idle/1person_faceidle_1.mp4"
   },
   "fromNewUserGuide": false,
-  "selectedIdList": [
-    "amz:Guid(5103815047833968988, 4247023386483296418)"
-  ],
+  "selectedIdList": [],
   "lastSceneView": 1,
   "effectSize": 2276920,
   "effectPackagePath": "C:\\Users\\LianeCorpuz\\AppData\\Roaming\\EffectHouse\\Instances\\Instance1\\Submit\\package\\effect.zip",

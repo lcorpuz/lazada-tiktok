@@ -223,7 +223,7 @@ entities:
         letters:
           - __class: Letter
             name: !<str> ""
-            guid: {a: 6218214747909659781, b: 1033237447305006527}
+            guid: {a: 16017966659307367366, b: 13579344166871399348}
             utf8: !<str> /
             initialPosition: {x: -647.6583, y: 55.625}
             position: {x: -647.6583, y: 55.625}
@@ -235,7 +235,7 @@ entities:
             letterStyle: {localId: 32}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 8882219798339054132, b: 2879179049395328177}
+            guid: {a: 11619434611703637428, b: 4723722066264375943}
             utf8: !<str> 1
             initialPosition: {x: -192.9, y: 120}
             position: {x: -192.9, y: 120}
@@ -247,7 +247,7 @@ entities:
             letterStyle: {localId: 32}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 14215189662764801163, b: 10713550670307450551}
+            guid: {a: 10610500229909592478, b: 5020877940455145905}
             utf8: !<str> 0
             initialPosition: {x: 492.4417, y: 119.375}
             position: {x: 492.4417, y: 119.375}
@@ -766,7 +766,7 @@ entities:
         letters:
           - __class: Letter
             name: !<str> ""
-            guid: {a: 1603464663168478997, b: 8885971961103946892}
+            guid: {a: 5931175232006703404, b: 3537558223475431357}
             utf8: !<str> o
             initialPosition: {x: -575.8491, y: 0.78125}
             position: {x: -575.8491, y: 0.78125}
@@ -778,7 +778,7 @@ entities:
             letterStyle: {localId: 50}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4127482820419243878, b: 8188464810870912665}
+            guid: {a: 3117060049891515549, b: 7770787122365654166}
             utf8: !<str> r
             initialPosition: {x: -327.7032, y: 3.90625}
             position: {x: -327.7032, y: 3.90625}
@@ -790,7 +790,7 @@ entities:
             letterStyle: {localId: 50}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 8593574356118597309, b: 9358840327702716598}
+            guid: {a: 3407413936442824103, b: 17502689849450813840}
             utf8: !<str> b
             initialPosition: {x: -93.0296, y: 46.87503}
             position: {x: -93.0296, y: 46.87503}
@@ -802,7 +802,7 @@ entities:
             letterStyle: {localId: 50}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 955924931507871194, b: 13041609607946302873}
+            guid: {a: 2396180929524944318, b: 10581490868123658666}
             utf8: !<str> " "
             initialPosition: {x: 108.9913, y: 0}
             position: {x: 108.9913, y: 0}
@@ -814,7 +814,7 @@ entities:
             letterStyle: {localId: 50}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 9028821333113439716, b: 6185998136797589413}
+            guid: {a: 17747605156899345798, b: 2719739525205190557}
             utf8: !<str> i
             initialPosition: {x: 221.8523, y: 55.20834}
             position: {x: 221.8523, y: 55.20834}
@@ -826,7 +826,7 @@ entities:
             letterStyle: {localId: 50}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 6578438284890573540, b: 14775129302267543963}
+            guid: {a: 15583719730609325100, b: 939607597259892118}
             utf8: !<str> d
             initialPosition: {x: 426.3491, y: 46.87503}
             position: {x: 426.3491, y: 46.87503}
@@ -838,7 +838,7 @@ entities:
             letterStyle: {localId: 50}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 10467450070390246283, b: 4933194957815316633}
+            guid: {a: 3334626638352956723, b: 7592673049931669380}
             utf8: !<str> ":"
             initialPosition: {x: 655.8734, y: -13.02083}
             position: {x: 655.8734, y: -13.02083}
@@ -941,7 +941,7 @@ entities:
         letters:
           - __class: Letter
             name: !<str> ""
-            guid: {a: 2542923938561062096, b: 538393245338305161}
+            guid: {a: 12630080664592775662, b: 8098561905526302865}
             utf8: !<str> "\n"
             initialPosition: {x: -390.625, y: 130.2084}
             position: {x: -390.625, y: 130.2084}
@@ -1084,7 +1084,7 @@ entities:
         letters:
           - __class: Letter
             name: !<str> ""
-            guid: {a: 10755697559461086455, b: 7549355883316847792}
+            guid: {a: 11619703214702434565, b: 8614344069661309352}
             utf8: !<str> 0
             initialPosition: {x: 0.5167236, y: 119.375}
             position: {x: 0.5167236, y: 119.375}
@@ -1297,7 +1297,7 @@ entities:
             enableCustomBindingInput: false
             faceFittingFOV: 60
             faceIndex: 0
-            graphName: !<str> AlSubGraph_Sun10May2026110455GMT422k3dh
+            graphName: !<str> AlSubGraph_Sun10May2026115958GMT389vrnx
         enabled: true
         className: !<str> FaceBinding
     layer: 0
@@ -1839,7 +1839,7 @@ entities:
         letters:
           - __class: Letter
             name: !<str> ""
-            guid: {a: 4776994207138019144, b: 3784855568071221674}
+            guid: {a: 2399059498381651498, b: 8314037119734002621}
             utf8: !<str> 1
             initialPosition: {x: -384.2041, y: 706.25}
             position: {x: -384.2041, y: 706.25}
@@ -1851,7 +1851,7 @@ entities:
             letterStyle: {localId: 68}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 9531132837250097008, b: 9044495057999622078}
+            guid: {a: 15368001963901114522, b: 16584535719793045413}
             utf8: !<str> 5
             initialPosition: {x: 253.0127, y: 695.625}
             position: {x: 253.0127, y: 695.625}
@@ -1863,7 +1863,7 @@ entities:
             letterStyle: {localId: 68}
           - __class: Letter
             name: !<str> ""
-            guid: {a: 3263232742595924345, b: 10909176868747541395}
+            guid: {a: 2256145380879396979, b: 2584889989035099270}
             utf8: !<str> "\n"
             initialPosition: {x: 362.9541, y: 890.625}
             position: {x: 362.9541, y: 890.625}
