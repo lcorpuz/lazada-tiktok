@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "4f3e5acc-af84-a751-b597-0e24553cf9a9",
+      "b": ""
+    },
+    "extraType": "ResItemAnimatedTexture",
+    "name": "ConfettiPartyLoop_AnimationTex",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "assetPackageID": "7405500242570772497",
+    "resourceFilePath": "C:\\Users\\LianeCorpuz\\AppData\\Roaming\\EffectHouse\\Instances\\Instance1\\EHpackage\\7405500242570772497\\Textures\\Animated Textures\\ConfettiPartyLoop_AnimationTex.OseqJSA",
+    "references": [
+      {
+        "guid": "e79e07a0-496c-5aa2-0640-18eae659a1c5",
+        "propertyName": "textureSequence"
+      }
+    ]
+  }
+]

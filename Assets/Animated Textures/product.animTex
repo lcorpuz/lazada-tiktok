@@ -1,0 +1,49 @@
+%YAML 1.1
+--- !TextureDelegate &1
+name: !<str> product
+guid: {a: 5019116058838001060, b: 16256000725981686147}
+serializedProperty:
+  __class: ScriptSerializedProperty
+  name: !<str> ""
+  guid: {a: 4835199466961530549, b: 2148975513748747907}
+  properties:
+    __class: Map
+    JSClassName: !<str> AnimatedTextureProvider
+    duration: 0.4166666666666667
+    fps: 12
+    loopCount: -1
+    playMode: 0
+    reverse: false
+    textureSequence: {localId: 1, path: c7dffc67-098e-bc0c-fa8d-b95598ce4b94--c7dffc67-098e-bc0c-fa8d-b95598ce4b94.seq}
+width: 0
+height: 0
+depth: 0
+internalFormat:
+  __class: InternalFormat
+  value: RGBA8
+dataType:
+  __class: DataType
+  value: U8norm
+builtinType:
+  __class: BuiltInTextureType
+  value: NORAML
+enableMipmap: true
+filterMin:
+  __class: FilterMode
+  value: LINEAR
+filterMag:
+  __class: FilterMode
+  value: LINEAR
+filterMipmap:
+  __class: FilterMipmapMode
+  value: NONE
+wrapModeS:
+  __class: WrapMode
+  value: CLAMP
+wrapModeT:
+  __class: WrapMode
+  value: CLAMP
+wrapModeR:
+  __class: WrapMode
+  value: CLAMP
+maxAnisotropy: 1

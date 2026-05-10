@@ -1,0 +1,25 @@
+[
+  {
+    "guid": {
+      "a": "c7dffc67-098e-bc0c-fa8d-b95598ce4b94",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "product",
+    "version": "0.2.0",
+    "rttiType": "TextureSequence",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\LianeCorpuz\\Downloads\\sample8.5\\Assets\\Textures\\product.otextureseq",
+    "references": []
+  }
+]

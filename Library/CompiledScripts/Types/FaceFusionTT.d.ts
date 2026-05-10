@@ -1,20 +1,11 @@
 declare namespace APJS {
-  /**
-   * @class FaceFusionTextureProvider
-   * @description FaceFusionTextureProvider
-   */
-  class FaceFusionTextureProvider extends ScreenTextureProvider implements IDynamicAsset{
-    protected constructor();
+  class FaceFusionTextureProvider extends FaceFusionAlgoScriptBase implements IDynamicAsset {
+    get fusionTexture(): any;
   
-    get fusionTexture(): Texture;
-    /**
-     * @description fusion texture.
-     * @param {Texture} value - New fusion texture to set to
-     */
-    set fusionTexture(value: Texture);
-    /**
-     * @description trigger morph.
-     */
+    set fusionTexture(value: Texture | undefined);
+  
+    constructor(tex: effect.Amaz.ScreenRenderTexture);
+  
     triggerMorph(): void;
   }
 }

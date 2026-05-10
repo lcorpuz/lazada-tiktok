@@ -47,7 +47,7 @@ declare namespace APJS {
   }
   
   /**
-   * @class FullBodyAvatarDriveComponent
+   * @namespace FullBodyAvatarDriveComponent
    * @description Represents a dynamic component specifically designed for the FullBodyAvatarDriveComponent.
    */
   class FullBodyAvatarDrive extends DynamicComponent {

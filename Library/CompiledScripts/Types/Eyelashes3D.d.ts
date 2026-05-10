@@ -4,7 +4,7 @@ declare namespace APJS {
   type Eyelashes3DScopeKey = 'Both' | 'Left' | 'Right';
   
   /**
-   * @class Eyelashes3D
+   * @namespace Eyelashes3D
    * @description Represents a dynamic component specifically designed for the Eyelashes3D.
    */
   class Eyelashes3D extends DynamicComponent {

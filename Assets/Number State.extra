@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "5e4d16b6-beaa-24a5-1acd-9d0d3e16871a",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Number State",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "references": []
+  }
+]

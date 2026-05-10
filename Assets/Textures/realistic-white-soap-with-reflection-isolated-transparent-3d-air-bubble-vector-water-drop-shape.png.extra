@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "151c8844-40f3-1811-0b31-62d84b907fd1",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "realistic-white-soap-with-reflection-isolated-transparent-3d-air-bubble-vector-water-drop-shape",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\LianeCorpuz\\Downloads\\realistic-white-soap-with-reflection-isolated-transparent-3d-air-bubble-vector-water-drop-shape.png",
+    "references": []
+  }
+]

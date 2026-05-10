@@ -1,6 +1,6 @@
 declare namespace APJS {
   /**
-   * @description DyeHairMode 
+   * @description DyeHairMode
    * @enum {string}
    * @property Full - Full mode.
    * @property TwoTone - Two tone mode.
@@ -15,7 +15,7 @@ declare namespace APJS {
   }
   
   /**
-   * @description GradientType 
+   * @description GradientType
    * @enum {string}
    * @property Horizontal - Horizontal gradient.
    * @property Vertical - Vertical gradient.
@@ -26,11 +26,11 @@ declare namespace APJS {
   }
   
   /**
-   * @description DyeHairPropertyKey 
-   * 
+   * @description DyeHairPropertyKey
+   *
    * DyeHair property keys type definition
-   * 
-   * @property Mode - (Readonly) Dye hair mode. 
+   *
+   * @property Mode - (Readonly) Dye hair mode.
    * @property Bleach - (Readonly) Whether to enable bleach. Available in Full, TwoTone and CustomTexture mode.
    * @property BleachIntensity - Bleach intensity. Available in all modes.
    * @property Coverage - Coverage. Available in all modes.

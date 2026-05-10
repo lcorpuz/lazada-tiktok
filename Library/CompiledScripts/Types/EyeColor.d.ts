@@ -10,7 +10,7 @@ declare namespace APJS {
   }
   
   /**
-   * @class EyeColor
+   * @namespace EyeColor
    * @extends DynamicComponent
    */
   class EyeColor extends DynamicComponent {

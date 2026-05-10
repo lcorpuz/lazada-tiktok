@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "b480dfc2-2c06-f0f8-b4a0-60be912565f0",
+      "b": ""
+    },
+    "extraType": "ResItemVSSubgraph",
+    "name": "NumberState",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "assetPackageID": "7293732841232302082",
+    "resourceFilePath": "C:\\Users\\LianeCorpuz\\AppData\\Roaming\\EffectHouse\\Instances\\Instance1\\EHpackage\\7293732841232302082\\NumberState.ssubgraph",
+    "references": [],
+    "combinedWithNodeLibary": true,
+    "assetID": "7293732841232302082"
+  }
+]

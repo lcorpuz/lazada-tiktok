@@ -1,0 +1,22 @@
+[
+  {
+    "guid": {
+      "a": "8d400b55-530c-aeb2-520d-67c370722c30",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "PrizeRandomizer",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "references": [],
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

@@ -106,6 +106,17 @@ declare namespace APJS {
    */
   interface AlgorithmResult {
     /**
+     * @description getBodyInfo
+     * @param index
+     * @returns {BodyInfo}
+     */
+    getBodyInfo(index: number): BodyInfo;
+    /**
+     * @description getBodyCount
+     * @returns number
+     */
+    getBodyCount(): number;
+    /**
      * @description getFaceAttributeCount
      * @returns {number}
      */
@@ -156,6 +167,17 @@ declare namespace APJS {
      * @returns {FaceTeethMaskInterface}
      */
     getFaceTeethMask(index: number): FaceTeethMaskInterface;
+    /**
+     * @description getHandCount
+     * @returns {number}
+     */
+    getHandCount(): number;
+    /**
+     * @description getHandInfo
+     * @param {number} index
+     * @returns {HandInfo}
+     */
+    getHandInfo(index: number): HandInfo;
   }
   /**
    * @description AnimatedTextureEvent
@@ -427,12 +449,11 @@ declare namespace APJS {
      */
     resumeAll(): void;
   }
+  /**
+   * @class AObject
+   */
   class AObject {
-    /**
-     * @description Constructor for AObject class.
-     * @param rtti - An instance of effect.Amaz.AObject or any other type. If not an instance of effect.Amaz.AObject, an error will be thrown.
-     */
-    constructor(rtti?: any);
+    protected constructor();
     /**
      * @description Get the name of the object.
      */
@@ -489,7 +510,7 @@ declare namespace APJS {
   /**
    * @class
    */
-  abstract class BasicScriptComponent {
+  abstract class BasicScriptComponent extends DynamicComponent {
     /**
      * @description Get the scene object this component is attached to.
      * @returns The scene object this component is attached to.
@@ -735,6 +756,18 @@ declare namespace APJS {
      * @param value The alpha blend operation to set.
      */
     set alphaBlendOperation(value: BlendOperation);
+  }
+  /**
+   * @interface
+   * BodyInfo
+   */
+  interface BodyInfo {
+    /**
+     * @readonly
+     * @description detected
+     * @type {boolean}
+     */
+    readonly detected: boolean;
   }
   /**
    * @class BoxCollider
@@ -2707,6 +2740,111 @@ declare namespace APJS {
     set interactable(value: boolean);
   }
   /**
+   * @description Represents different hand actions that can be performed.
+   * @enum
+   * @property HeartA Represents a heart shape with one finger.
+   * @property HeartB Represents a heart shape with two fingers.
+   * @property HeartC Represents a heart shape with three fingers.
+   * @property HeartD Represents a heart shape with four fingers.
+   * @property OK Represents an "OK" gesture.
+   * @property HandOpen Represents an open hand gesture.
+   * @property ThumbUp Represents a thumbs up gesture.
+   * @property ThumbDown Represents a thumbs down gesture.
+   * @property Rock Represents a rock gesture.
+   * @property Namaste Represents a namaste gesture.
+   * @property PlamUp Represents a palm up gesture.
+   * @property Fist Represents a fist gesture.
+   * @property IndexFingerUp Represents an index finger up gesture.
+   * @property DoubleFingerUp Represents a double finger up gesture.
+   * @property Victory Represents a victory gesture.
+   * @property BigV Represents a big "V" gesture.
+   * @property Phonecall Represents a phone call gesture.
+   * @property Beg Represents a beg gesture.
+   * @property Thanks Represents a thanks gesture.
+   * @property Unknown Represents an unknown hand action.
+   * @property Cabbage Represents a cabbage gesture.
+   * @property Three Represents a three-finger gesture.
+   * @property Four Represents a four-finger gesture.
+   * @property Pistol Represents a pistol gesture.
+   * @property Rock2 Represents another rock gesture.
+   * @property Swear Represents a swear gesture.
+   * @property Holdface Represents a hold face gesture.
+   * @property Salute Represents a salute gesture.
+   * @property Spread Represents a spread gesture.
+   * @property Pray Represents a pray gesture.
+   * @property Pistol2 Represents another pistol gesture.
+   * @property Undetect Represents an undetectable hand action.
+   */
+  enum HandAction {
+    Beg,
+    BigV,
+    Cabbage,
+    DoubleFingerUp,
+    Fist,
+    Four,
+    HandOpen,
+    HeartA,
+    HeartB,
+    HeartC,
+    HeartD,
+    Holdface,
+    IndexFingerUp,
+    Namaste,
+    OK,
+    Phonecall,
+    Pistol,
+    Pistol2,
+    PlamUp,
+    Pray,
+    Rock,
+    Rock2,
+    Salute,
+    Spread,
+    Swear,
+    Thanks,
+    Three,
+    ThumbDown,
+    ThumbUp,
+    Unknown,
+    Undetect,
+    Victory
+  }
+  /**
+   * @interface
+   * HandInfo
+   */
+  interface HandInfo {
+    /**
+     * @readonly
+     * @description ID
+     * @type {number}
+     */
+    readonly ID: number;
+    /**
+     * @readonly
+     * @description action
+     * @type {HandAction}
+     */
+    readonly action: HandAction;
+    /**
+     * @readonly
+     * @description rect
+     * @type {Rect}
+     */
+    readonly rect: Rect;
+    /**
+     * @readonly
+     * @description rot_angle
+     * @type {number}
+     */
+    readonly rotation: number;
+    /**
+     * @description getHandType
+     * @returns {string}
+     */
+    getHandType(): string;
+  }
+  /**
    * @namespace
    * HapticsModule
    * @description Provides haptic feedback related functionality
@@ -2914,17 +3052,15 @@ declare namespace APJS {
      */
     get stretchMode(): StretchMode;
     set stretchMode(value: StretchMode);
-
     /**
      * @description Get the specified material property value by key
      * @param key - The key of the material property to get.
      * @returns The value of the specified material property.
      */
     getMaterialProperty(key: string): number | Vector2f | Vector3f | Vector4f | Texture | Matrix4x4f;
-
     /**
      * @description Set a material property for the current Image.
-     * 
+     *
      * Note: Image DrawMode cannot be changed via script API. You must set the
      * Image DrawMode (for example, switch to "Filled") in the editor.
      *

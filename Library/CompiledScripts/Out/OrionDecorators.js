@@ -52,3 +52,20 @@ function serializeProperty(target, key) {
 }
 exports.serializeProperty = serializeProperty;
 
+function passV1() {return (target, key) => {};}
+function passV2(target, key) { if(target && key) {} else {return (target, key) => {};}}
+exports.label = passV1;
+exports.readOnly = passV2;
+exports.slider = passV1;
+exports.spinBox = passV1;
+exports.dropDown = passV1;
+exports.textArea = passV1;
+exports.header = passV1;
+exports.showIf = passV1;
+exports.tooltip = passV1;
+exports.separator = passV2;
+exports.space = passV1;
+exports.groupBegin = passV1;
+exports.groupEnd = passV2;
+exports.disablePin = passV2;
+

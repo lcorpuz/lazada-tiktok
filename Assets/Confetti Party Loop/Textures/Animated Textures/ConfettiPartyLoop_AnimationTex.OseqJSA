@@ -1,0 +1,49 @@
+%YAML 1.1
+--- !TextureDelegate &1
+name: !<str> ConfettiPartyLoop_AnimationTex
+guid: {a: 5218380243661609671, b: 18369248552525969304}
+serializedProperty:
+  __class: ScriptSerializedProperty
+  name: !<str> ""
+  guid: {a: 5063837113475873027, b: 9920930234053568907}
+  properties:
+    __class: Map
+    JSClassName: !<str> AnimatedTextureProvider
+    duration: 4
+    fps: 12
+    loopCount: -1
+    playMode: 0
+    reverse: false
+    textureSequence: {localId: 1, path: e79e07a0-496c-5aa2-0640-18eae659a1c5--e79e07a0-496c-5aa2-0640-18eae659a1c5.seq}
+width: 0
+height: 0
+depth: 0
+internalFormat:
+  __class: InternalFormat
+  value: RGBA8
+dataType:
+  __class: DataType
+  value: U8norm
+builtinType:
+  __class: BuiltInTextureType
+  value: NORAML
+enableMipmap: true
+filterMin:
+  __class: FilterMode
+  value: LINEAR
+filterMag:
+  __class: FilterMode
+  value: LINEAR
+filterMipmap:
+  __class: FilterMipmapMode
+  value: NONE
+wrapModeS:
+  __class: WrapMode
+  value: CLAMP
+wrapModeT:
+  __class: WrapMode
+  value: CLAMP
+wrapModeR:
+  __class: WrapMode
+  value: CLAMP
+maxAnisotropy: 1

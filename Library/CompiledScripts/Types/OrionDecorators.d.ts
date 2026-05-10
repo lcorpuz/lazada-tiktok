@@ -42,7 +42,7 @@ declare function customNode(): (target: BaseUserConstructor<BasicScriptNode>) =>
  * }
  * ```
  */
-declare function component(): (target: BaseUserConstructor<APJS.BasicScriptComponent>) => void;
+declare function component<T extends typeof APJS.BasicScriptComponent>(): (target: T) => void;
 /**
  * Decorator that marks a property as an input port for custom nodes.
  * Input ports allow data to flow into the node from other nodes in a visual scripting graph.
@@ -94,7 +94,8 @@ declare function serializeSceneObjectFlag(target: any, key: string): void;
  *
  * @example
  * ```typescript
- * class PlayerData extends APJS.BasicScriptComponent {
+ * @component()
+ * export class PlayerData extends APJS.BasicScriptComponent {
  *   // Usage without parentheses
  *   @serializeProperty
  *   public playerName: string = "Player";
@@ -119,7 +120,8 @@ declare function serializeProperty(): (target: any, key: string) => any;
  *
  * @example
  * ```typescript
- * class GameSettings extends APJS.BasicScriptComponent {
+ * @component()
+ * export class GameSettings extends APJS.BasicScriptComponent {
  *   @serializeProperty
  *   public gameMode: string = "normal";
  *
@@ -138,7 +140,8 @@ declare function serializeProperty(target: any, key: string): void;
  *
  * @example
  * ```typescript
- * class LightController extends APJS.BasicScriptComponent {
+ * @component()
+ * export class LightController extends APJS.BasicScriptComponent {
  *   @serializeProperty()
  *   @label("Light Color")
  *   public color: vec3 = new vec3(1, 1, 1);
@@ -163,7 +166,8 @@ declare function label(label: string): (target: any, key: string) => any;
  *
  * @example
  * ```typescript
- * class Statistics extends APJS.BasicScriptComponent {
+ * @component()
+ * export class Statistics extends APJS.BasicScriptComponent {
  *   @serializeProperty()
  *   public totalScore: number = 0;
  *
@@ -183,7 +187,8 @@ declare function readOnly(): (target: any, key: string) => any;
  *
  * @example
  * ```typescript
- * class PlayerStats extends APJS.BasicScriptComponent {
+ * @component()
+ * export class PlayerStats extends APJS.BasicScriptComponent {
  *   @serializeProperty()
  *   @readOnly
  *   public playerId: string = "player_001";
@@ -206,7 +211,8 @@ declare function readOnly(target: any, key: string): void;
  *
  * @example
  * ```typescript
- * class CameraSettings extends APJS.BasicScriptComponent {
+ * @component()
+ * export class CameraSettings extends APJS.BasicScriptComponent {
  *   @serializeProperty()
  *   @slider(0, 180, 1)
  *   public fov: number = 60;
@@ -233,7 +239,8 @@ declare function slider(min: number, max: number, step?: number): (target: any, 
  *
  * @example
  * ```typescript
- * class GridSettings extends APJS.BasicScriptComponent {
+ * @component()
+ * export class GridSettings extends APJS.BasicScriptComponent {
  *   @serializeProperty()
  *   @spinBox(1, 100, 1)
  *   public gridSize: number = 10;
@@ -258,7 +265,8 @@ declare function spinBox(min: number, max: number, step?: number): (target: any,
  *
  * @example
  * ```typescript
- * class QualitySettings extends APJS.BasicScriptComponent {
+ * @component()
+ * export class QualitySettings extends APJS.BasicScriptComponent {
  *   @serializeProperty()
  *   @dropDown([
  *       ["Low", 0],
@@ -278,7 +286,7 @@ declare function spinBox(min: number, max: number, step?: number): (target: any,
  * }
  * ```
  */
-declare function dropDown(options: [string, string][] | [string, number][]): (target: any, key: string) => any;
+declare function dropDown(options: [string, string][]|[string, number][]): (target: any, key: string) => any;
 /**
  * Decorator that creates a multi-line text area control for string properties in the inspector.
  * Useful for longer text content that needs multiple lines.
@@ -288,7 +296,8 @@ declare function dropDown(options: [string, string][] | [string, number][]): (ta
  *
  * @example
  * ```typescript
- * class DialogSystem extends APJS.BasicScriptComponent {
+ * @component()
+ * export class DialogSystem extends APJS.BasicScriptComponent {
  *   @serializeProperty()
  *   @textArea(2)
  *   public dialogText: string = "Welcome to the game!";
@@ -313,7 +322,8 @@ declare function textArea(height?: number): (target: any, key: string) => any;
  *
  * @example
  * ```typescript
- * class PlayerController extends APJS.BasicScriptComponent {
+ * @component()
+ * export class PlayerController extends APJS.BasicScriptComponent {
  *   @header("Movement Settings")
  *   @serializeProperty()
  *   public moveSpeed: number = 5;
@@ -331,7 +341,8 @@ declare function header(content: string): (target: any, key: string) => any;
  *
  * @example
  * ```typescript
- * class EffectController extends APJS.BasicScriptComponent {
+ * @component()
+ * export class EffectController extends APJS.BasicScriptComponent {
  *   @serializeProperty()
  *   public enableEffect: boolean = false;
  *
@@ -355,7 +366,8 @@ declare function showIf(propertyName: string, condition: string | number | boole
  *
  * @example
  * ```typescript
- * class AdvancedSettings extends APJS.BasicScriptComponent {
+ * @component()
+ * export class AdvancedSettings extends APJS.BasicScriptComponent {
  *   @serializeProperty()
  *   @tooltip("Controls the overall brightness of the scene")
  *   @slider(0, 2, 0.1)
@@ -377,7 +389,8 @@ declare function tooltip(content: string): (target: any, key: string) => any;
  *
  * @example
  * ```typescript
- * class GameManager extends APJS.BasicScriptComponent {
+ * @component()
+ * export class GameManager extends APJS.BasicScriptComponent {
  *   @serializeProperty()
  *   public gameTitle: string = "My Game";
  *
@@ -407,7 +420,8 @@ declare function separator(): (target: any, key: string) => any;
  *
  * @example
  * ```typescript
- * class AudioManager extends APJS.BasicScriptComponent {
+ * @component()
+ * export class AudioManager extends APJS.BasicScriptComponent {
  *   @serializeProperty()
  *   public masterVolume: number = 1;
  *
@@ -431,7 +445,8 @@ declare function separator(target: any, key: string): void;
  *
  * @example
  * ```typescript
- * class ComplexComponent extends APJS.BasicScriptComponent {
+ * @component()
+ * export class ComplexComponent extends APJS.BasicScriptComponent {
  *   @serializeProperty()
  *   public enabled: boolean = true;
  *
@@ -457,7 +472,8 @@ declare function space(heightPixels: number): (target: any, key: string) => any;
  *
  * @example
  * ```typescript
- * class MaterialSettings extends APJS.BasicScriptComponent {
+ * @component()
+ * export class MaterialSettings extends APJS.BasicScriptComponent {
  *   @serializeProperty()
  *   public materialName: string = "Default";
  *
@@ -495,7 +511,8 @@ declare function groupBegin(groupName: string): (target: any, key: string) => an
  *
  * @example
  * ```typescript
- * class VehicleController extends APJS.BasicScriptComponent {
+ * @component()
+ * export class VehicleController extends APJS.BasicScriptComponent {
  *   @serializeProperty()
  *   public vehicleType: string = "car";
  *
@@ -531,7 +548,8 @@ declare function groupEnd(): (target: any, key: string) => any;
  *
  * @example
  * ```typescript
- * class WeaponStats extends APJS.BasicScriptComponent {
+ * @component()
+ * export class WeaponStats extends APJS.BasicScriptComponent {
  *   @serializeProperty()
  *   public weaponName: string = "Sword";
  *
@@ -559,7 +577,8 @@ declare function groupEnd(target: any, key: string): void;
  *
  * @example
  * ```typescript
- * class MyComponent extends APJS.BasicScriptComponent {
+ * @component()
+ * export class MyComponent extends APJS.BasicScriptComponent {
  *   @serializeProperty()
  *   @disablePin()
  *   public importantConfig: string = "critical setting";
@@ -580,7 +599,8 @@ declare function disablePin(): (target: any, key: string) => any;
  *
  * @example
  * ```typescript
- * class MyComponent extends APJS.BasicScriptComponent {
+ * @component()
+ * export class MyComponent extends APJS.BasicScriptComponent {
  *   @serializeProperty()
  *   @disablePin
  *   public importantConfig: string = "critical setting";

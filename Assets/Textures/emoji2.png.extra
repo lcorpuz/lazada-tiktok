@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "3222cd95-9b3b-3f8e-d464-c8c46a51e938",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "emoji2",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\LianeCorpuz\\Downloads\\emoji2.png",
+    "references": []
+  }
+]

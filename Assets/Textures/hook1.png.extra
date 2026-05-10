@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "2f970c4e-6649-b3bf-66bd-95bb08b9a123",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "hook1",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\LianeCorpuz\\Downloads\\hook1.png",
+    "references": []
+  }
+]
