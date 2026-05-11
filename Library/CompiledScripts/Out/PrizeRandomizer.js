@@ -23,39 +23,58 @@ exports.PrizeRandomizer = void 0;
 let PrizeRandomizer = class PrizeRandomizer extends APJS.BasicScriptComponent {
     constructor() {
         super(...arguments);
-        // Total number of prize types (1 to this number)
         this.totalPrizes = 5;
-        // Pre-shuffled prize queue
         this.prizeQueue = [];
         this.currentIndex = 0;
+        this.prizes = [];
         this.orbIDnumber = null;
+        // Orb watching
+        this.orbs = [];
+        this.orbWasEnabled = [];
+        // Prize display
+        this.showPrize = false;
+        this.showTimer = 0;
+        this.showDuration = 1.0; // seconds to show prize
+        this.pendingPrize = 0;
     }
     onStart() {
         const scene = this.getSceneObject().scene;
-        // Find the orbIDnumber text object
+        // Find orbIDnumber text
         this.orbIDnumber = scene.findSceneObject("orbIDnumber");
-        if (!this.orbIDnumber) {
-            console.log("ERROR: orbIDnumber not found!");
-            return;
+        // Find all 5 prize images
+        for (let i = 1; i <= this.totalPrizes; i++) {
+            const prize = scene.findSceneObject("prize_" + i);
+            if (prize) {
+                this.prizes.push(prize);
+                const img = prize.getComponent("Image");
+                if (img)
+                    img.opacity = 0;
+                console.log("Found prize_" + i);
+            }
+            else {
+                console.log("ERROR: prize_" + i + " not found!");
+            }
         }
-        // Build and shuffle the prize queue
+        // Find all 10 orbs and track their enabled state
+        for (let i = 1; i <= 10; i++) {
+            const orb = scene.findSceneObject("orb" + i);
+            if (orb) {
+                this.orbs.push(orb);
+                this.orbWasEnabled.push(orb.enabled);
+            }
+        }
         this.buildShuffledQueue();
-        console.log("PrizeRandomizer ready! Queue: " + this.prizeQueue.join(", "));
-        // Listen for screen tap
-        APJS.EventManager.getGlobalEmitter().on(APJS.EventType.Touch, this.onTouch, this);
+        console.log("PrizeRandomizer ready!");
+        console.log("Queue: " + this.prizeQueue.join(", "));
     }
-    onDestroy() {
-        APJS.EventManager.getGlobalEmitter().off(APJS.EventType.Touch, this.onTouch, this);
-    }
+    // ── PRIZE QUEUE ───────────────────────────────────────
     buildShuffledQueue() {
-        // Build array [1, 2, 3, 4, 5, 1, 2, 3, 4, 5] for 10 orbs
         this.prizeQueue = [];
         for (let round = 0; round < 2; round++) {
-            for (let i = 1; i <= this.totalPrizes; i++) {
+            for (let i = 0; i < this.totalPrizes; i++) {
                 this.prizeQueue.push(i);
             }
         }
-        // Fisher-Yates shuffle
         for (let i = this.prizeQueue.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             const temp = this.prizeQueue[i];
@@ -64,27 +83,61 @@ let PrizeRandomizer = class PrizeRandomizer extends APJS.BasicScriptComponent {
         }
         this.currentIndex = 0;
     }
-    onTouch(event) {
-        const touchInfo = event.args[0];
-        if (touchInfo.phase !== APJS.TouchPhase.Began)
-            return;
-        // Assign next prize from shuffled queue
-        this.assignNextPrize();
-    }
-    assignNextPrize() {
-        if (!this.orbIDnumber)
-            return;
-        // Loop back if we run out
+    getNextPrize() {
         if (this.currentIndex >= this.prizeQueue.length) {
             this.buildShuffledQueue();
         }
-        const prize = this.prizeQueue[this.currentIndex];
-        this.currentIndex++;
-        // Set the text
+        return this.prizeQueue[this.currentIndex++];
+    }
+    hideAllPrizes() {
+        for (const prize of this.prizes) {
+            const img = prize.getComponent("Image");
+            if (img)
+                img.opacity = 0;
+        }
+    }
+    showPrizeImage(index) {
+        this.hideAllPrizes();
+        if (index >= 0 && index < this.prizes.length) {
+            const img = this.prizes[index].getComponent("Image");
+            if (img) {
+                img.opacity = 1;
+                console.log("Showing prize_" + (index + 1));
+            }
+        }
+    }
+    updatePrizeText(index) {
+        if (!this.orbIDnumber)
+            return;
         const textComp = this.orbIDnumber.getComponent("Text");
-        if (textComp) {
-            textComp.text = prize.toString();
-            console.log("Prize assigned: " + prize);
+        if (textComp)
+            textComp.text = (index + 1).toString();
+    }
+    // ── UPDATE ────────────────────────────────────────────
+    onUpdate(deltaTime) {
+        // Watch for orb catches — when orb goes from enabled to disabled
+        for (let i = 0; i < this.orbs.length; i++) {
+            const isEnabled = this.orbs[i].enabled;
+            if (this.orbWasEnabled[i] && !isEnabled) {
+                // Orb just got caught by VS!
+                this.pendingPrize = this.getNextPrize();
+                this.showPrizeImage(this.pendingPrize);
+                this.updatePrizeText(this.pendingPrize);
+                this.showPrize = true;
+                this.showTimer = 0;
+                console.log("Orb caught! Prize: " + (this.pendingPrize + 1));
+            }
+            // Update tracked state
+            this.orbWasEnabled[i] = isEnabled;
+        }
+        // Hide prize after showDuration seconds
+        if (this.showPrize) {
+            this.showTimer += deltaTime;
+            if (this.showTimer >= this.showDuration) {
+                this.showPrize = false;
+                this.hideAllPrizes();
+                console.log("Prize hidden");
+            }
         }
     }
 };

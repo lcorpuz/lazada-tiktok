@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "f4f501d3-ee84-3994-c678-4fcee1ad1e33",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Prizes",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "references": []
+  }
+]

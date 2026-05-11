@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "e3bc8a71-141d-97a5-2ce5-c5028fb40b01",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "prize_1",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "/Users/marcedisonsuarez/Documents/prize_1.png",
+    "references": []
+  }
+]

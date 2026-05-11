@@ -1,6 +1,6 @@
 {
   "name": "Untitled",
-  "lastModified": "Sun, 10 May 2026 12:00:03 GMT",
+  "lastModified": "Mon, 11 May 2026 02:40:27 GMT",
   "version": "5.10.0",
   "renderNames": {
     "0": "Default Layer",
@@ -68,9 +68,9 @@
     "62": "Layer 62",
     "63": "Layer 63"
   },
-  "durationToCreate": 1052920700,
-  "durationCreation": 144979134,
-  "durationBackground": 90296098,
+  "durationToCreate": 1105744724,
+  "durationCreation": 147711858,
+  "durationBackground": 92164348,
   "effectHint": "",
   "templateID": "templateID_none",
   "overwriteBuiltinGAN": 1,
@@ -98,7 +98,7 @@
   },
   "fromNewUserGuide": false,
   "selectedIdList": [],
-  "lastSceneView": 1,
+  "lastSceneView": 0,
   "effectSize": 2276920,
   "effectPackagePath": "C:\\Users\\LianeCorpuz\\AppData\\Roaming\\EffectHouse\\Instances\\Instance1\\Submit\\package\\effect.zip",
   "effectUploadResult": {
