@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "929b819e-576c-9bf8-0dc6-200bd429e424",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "deals",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "references": []
+  }
+]

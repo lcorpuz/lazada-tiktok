@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "1d8677e9-f75a-1c23-2894-f29e8fd7fe3e",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Laz 6 6 TK Filter Mockup-08",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 2,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\LianeCorpuz\\Downloads\\Laz 6 6 TK Filter Mockup-08.png",
+    "references": []
+  }
+]

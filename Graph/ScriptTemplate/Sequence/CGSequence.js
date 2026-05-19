@@ -1,0 +1,1 @@
+let BaseNode=require("../Utils/BaseNode").BaseNode,APJS=require("../../../amazingpro");class CGSequence extends BaseNode{constructor(){super()}execute(e){for(var s in this.nexts)this.nexts[s]&&this.nexts[s]()}}exports.CGSequence=CGSequence;

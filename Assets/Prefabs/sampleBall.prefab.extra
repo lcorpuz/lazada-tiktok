@@ -1,0 +1,101 @@
+[
+  {
+    "guid": {
+      "a": "a4a1fe7f-8bbb-5baa-6448-9e14adeabd33",
+      "b": ""
+    },
+    "extraType": "ResItemPrefab",
+    "name": "sampleBall",
+    "version": "1.0.3",
+    "rttiType": "Prefab",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "relatedResourceGuids": [
+      "a23a95a1-a9d5-3f4a-a691-7ca1d8698a2e"
+    ],
+    "objGuid": "",
+    "references": [
+      {
+        "guid": "a23a95a1-a9d5-3f4a-a691-7ca1d8698a2e",
+        "propertyName": "0"
+      }
+    ],
+    "data": [
+      {
+        "guid": {
+          "a": "340618c4-e401-9293-a3a2-b05bbb64eeff",
+          "b": ""
+        },
+        "objGuid": "Guid(5292078137058451012, 11871008906988872110)",
+        "extraType": "Entity",
+        "name": "sampleBall",
+        "version": "0.1.0",
+        "rttiType": "SceneObject",
+        "expanded": true,
+        "type": "none",
+        "isAnimatorBound": false,
+        "modelGUID": "",
+        "createdEffectNodeKey": "",
+        "disableSelection": false,
+        "hiddenInHierarchy": false,
+        "editorTags": []
+      },
+      {
+        "guid": {
+          "a": "2b826560-d606-ef80-c96c-d6d6071ec708",
+          "b": ""
+        },
+        "objGuid": "Guid(5703902674692232002, 15190546079511870345)",
+        "extraType": "ScreenTransform",
+        "name": "Screen Transform",
+        "version": "0.1.0",
+        "rttiType": "ScreenTransform",
+        "editable": true,
+        "_lazyUpgrateVersion": "0.1.0",
+        "extendedInfo": {
+          "isVisibleInInspector": true,
+          "expanded": true
+        },
+        "horizontalConstraint": 2,
+        "verticalConstraint": 2,
+        "linkageScale": 0,
+        "linkageSize": 0
+      },
+      {
+        "guid": {
+          "a": "ff83b30d-51cf-1e60-2090-2d956df127a9",
+          "b": ""
+        },
+        "objGuid": "Guid(4698225642571633834, 1122027469040922506)",
+        "extraType": "Image",
+        "name": "Image",
+        "version": "0.1.0",
+        "rttiType": "Image",
+        "editable": true,
+        "_lazyUpgrateVersion": "0.1.0",
+        "extendedInfo": {
+          "isVisibleInInspector": true,
+          "expanded": true
+        },
+        "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+        "segBlendMode": "Normal_v2",
+        "segRadius": 0.5,
+        "segSoftness": 0.5,
+        "blendMode": "Normal",
+        "drawMode": "Normal",
+        "filledType": 0,
+        "startPoint": 0,
+        "filledRange": 1,
+        "ellipseX": 1,
+        "ellipseY": 1,
+        "alphaNOPM": true
+      }
+    ],
+    "effectNodeType": 6,
+    "dependencyData": []
+  }
+]

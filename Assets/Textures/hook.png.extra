@@ -1,7 +1,7 @@
 [
   {
     "guid": {
-      "a": "0ef6be4a-4574-04ff-ff0f-b865612320f0",
+      "a": "a48a81b8-0a40-c4fe-fcf8-98f74d3ffd47",
       "b": ""
     },
     "extraType": "ResItemPNGImage",
@@ -12,11 +12,11 @@
     "extendedInfo": {
       "isVisibleInInspector": true,
       "hideInPanel": false,
-      "expandInPanel": false
+      "expandInPanel": true
     },
-    "compressionType": 0,
+    "compressionType": 2,
     "compressQuality": 0,
-    "compressMaxResolution": 512,
+    "compressMaxResolution": 1024,
     "enableMipmap": false,
     "filterMin": 1,
     "filterMag": 1,
@@ -26,7 +26,7 @@
     "wrapModeR": 0,
     "premultiplyAlpha": false,
     "objGuid": "",
-    "resourceFilePath": "C:\\Users\\LianeCorpuz\\OneDrive - The SVEN Group\\Desktop\\WORK\\2026\\Tiktok Effects\\Lazada\\hook.png",
+    "resourceFilePath": "C:\\Users\\LianeCorpuz\\Downloads\\hook.png",
     "references": []
   }
 ]

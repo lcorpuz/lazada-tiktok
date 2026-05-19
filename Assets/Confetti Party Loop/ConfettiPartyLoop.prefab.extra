@@ -1,0 +1,139 @@
+[
+  {
+    "guid": {
+      "a": "e2b7eed5-dd7c-acba-56c3-31580fad41e8",
+      "b": ""
+    },
+    "extraType": "ResItemPrefab",
+    "name": "ConfettiPartyLoop",
+    "version": "1.0.3",
+    "rttiType": "Prefab",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "relatedResourceGuids": [
+      "4f3e5acc-af84-a751-b597-0e24553cf9a9"
+    ],
+    "objGuid": "",
+    "references": [
+      {
+        "guid": "4f3e5acc-af84-a751-b597-0e24553cf9a9",
+        "propertyName": "0"
+      }
+    ],
+    "data": [
+      {
+        "guid": {
+          "a": "bffc3bc1-f28f-9eda-f523-4c90629e8028",
+          "b": ""
+        },
+        "objGuid": "Guid(5137441118683198276, 13241656013821309318)",
+        "extraType": "Entity",
+        "name": "2D Camera",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "2f6c33c9-aab0-820f-fdfa-0b36a376862e",
+          "b": ""
+        },
+        "objGuid": "Guid(5184229342920080196, 14726131774853546928)",
+        "extraType": "Transform",
+        "name": "Transform",
+        "rttiType": "Transform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "eulerAngle": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "guid": {
+          "a": "056eb8b0-0117-a5ad-eab6-888e33e6dbdc",
+          "b": ""
+        },
+        "objGuid": "Guid(5018816711178048707, 13957370803251616424)",
+        "extraType": "ScreenTransform",
+        "name": "Screen Transform",
+        "rttiType": "ScreenTransform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true
+      },
+      {
+        "guid": {
+          "a": "ec956115-36c8-093d-d758-71e7ea6bd925",
+          "b": ""
+        },
+        "objGuid": "Guid(5359530326319847796, 16374637324060285873)",
+        "extraType": "Camera",
+        "name": "Camera",
+        "rttiType": "Camera",
+        "version": "0.2.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "usage": "2D",
+        "maskTexture": {
+          "_copiedToProj": false,
+          "_guid": "00000000-0000-0000-0000-000000000802",
+          "_isVector": false,
+          "_isResItem": false
+        }
+      },
+      {
+        "guid": {
+          "a": "93846288-4710-db00-1f59-5677e667280a",
+          "b": ""
+        },
+        "objGuid": "Guid(5632413237320917129, 15965811080521184652)",
+        "extraType": "Entity",
+        "name": "ConfettiPartyLoop",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_2D_foreground"
+      },
+      {
+        "guid": {
+          "a": "b055e8ce-f1d3-a75d-dd2a-0d8c3b4886bf",
+          "b": ""
+        },
+        "objGuid": "Guid(4742452334160051831, 13387131548397258918)",
+        "extraType": "Image",
+        "name": "Image",
+        "rttiType": "ImageRenderer",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "blendMode": "Normal",
+        "alphaNOPM": true,
+        "texture": "4f3e5acc-af84-a751-b597-0e24553cf9a9"
+      }
+    ],
+    "effectNodeType": 6,
+    "dependencyData": []
+  }
+]

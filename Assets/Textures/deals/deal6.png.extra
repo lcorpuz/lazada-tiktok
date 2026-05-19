@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "0af98509-54f1-208a-22dc-b3106182015e",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "deal6",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\LianeCorpuz\\Downloads\\Laz Filter Assets\\Orbs w deals\\deal6.png",
+    "references": []
+  }
+]

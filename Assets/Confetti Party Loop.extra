@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "6a4cd169-9e6b-8777-9c54-5073773ea73b",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Confetti Party Loop",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "references": []
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "76bf63b6-d16a-0457-5497-d8ccb667d9f8",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "You caught X mega deals",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "compressionType": 2,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\LianeCorpuz\\Downloads\\Laz Filter Assets\\Laz Filter Mega Deals Frame w text-08.png",
+    "references": []
+  }
+]

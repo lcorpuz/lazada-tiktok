@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "d57b39d7-d444-b1fd-ae2c-29f91c65553d",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "tapTheScreen",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "compressionType": 2,
+    "compressQuality": 0,
+    "compressMaxResolution": 1024,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\LianeCorpuz\\Downloads\\Laz Filter Assets\\tap the screen.png",
+    "references": []
+  }
+]

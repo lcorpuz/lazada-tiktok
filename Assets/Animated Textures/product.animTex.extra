@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "cc47d21f-ead7-0087-ae2d-afe96a1a5632",
+      "b": ""
+    },
+    "extraType": "ResItemAnimatedTexture",
+    "name": "product",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "objGuid": "",
+    "resourceFilePath": "C:\\Program Files\\Tiktok House Effect\\Effect House\\Resources\\BuiltinResource\\assets\\jsAssets\\default.animTex",
+    "references": [
+      {
+        "guid": "00000000-0000-0000-0000-0000000000c4",
+        "propertyName": "textureSequence"
+      }
+    ]
+  }
+]

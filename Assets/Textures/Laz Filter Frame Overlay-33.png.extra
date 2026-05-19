@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "1fdd4a54-a851-1d43-145f-f51a4d5cd45a",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Laz Filter Frame Overlay-33",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": true
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\LianeCorpuz\\Downloads\\Laz Filter Assets\\Laz Filter Frame Overlay-33.png",
+    "references": []
+  }
+]

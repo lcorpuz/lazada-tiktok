@@ -1,0 +1,1 @@
+let BaseNode=require("../Utils/BaseNode").BaseNode,APJS=require("../../../amazingpro");class CGAbs extends BaseNode{constructor(){super()}setNext(e,s){this.nexts[e]=s}setInput(e,s){this.inputs[e]=s}getOutput(){return Math.abs(this.inputs[0]())}}exports.CGAbs=CGAbs;

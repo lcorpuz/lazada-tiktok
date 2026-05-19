@@ -1,0 +1,91 @@
+{
+	"name": "Delay Set",
+	"nameKey": "graph_delay_set_name",
+	"id": "f37d5343-59e3-623b-e69a-de573b534301",
+	"inputs": [
+		{
+			"name": "Start",
+			"nameKey": "graph_delay_set_input_start",
+			"description": "Execute the current node, and keep accumulating data during the delay time.",
+			"descriptionKey": "graph_delay_set_input_start_description",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Set Value",
+			"nameKey": "graph_delay_set_input_setvalue",
+			"description": "The value to be delay set.",
+			"descriptionKey": "graph_delay_set_input_setvalue_description",
+			"type": "Double",
+			"dynamic": true,
+			"displayType": "Number",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "Delay Duration",
+			"nameKey": "graph_delay_set_input_delayduration",
+			"description": "Delay time before the set, note it might cause memory issue  when the delay time is too long, if the value type set to Texture 2D.",
+			"descriptionKey": "graph_delay_set_input_delayduration_description",
+			"type": "Double",
+			"displayType": "Number",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Next",
+			"nameKey": "graph_delay_set_output_next",
+			"description": "Execute the next node.",
+			"descriptionKey": "graph_delay_set_output_next_description",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Tick After Delay",
+			"nameKey": "graph_delay_set_output_tickafterdelay",
+			"description": "Keep executing the next node when the delay is finished.",
+			"descriptionKey": "graph_delay_set_output_tickafterdelay_description",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Delayed Value",
+			"nameKey": "graph_delay_set_output_delayedvalue",
+			"description": "The set value before the delay started, when the delay is not finished, the value will be 0 or empty.",
+			"descriptionKey": "graph_delay_set_output_delayedvalue_description",
+			"type": "Double",
+			"dynamic": true,
+			"displayType": "Number",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"supportedValueTypes": [
+		"Double",
+		"Bool",
+		"Vector2f",
+		"Vector3f",
+		"Vector4f",
+		"Color",
+		"String",
+		"Texture"
+	],
+	"nodeEvent": [
+		"onUpdate",
+		"resetOnRecord"
+	],
+	"category": "Utility",
+	"categoryKey": "graph_category_utility",
+	"version": "1.0.0",
+	"description": "Save data and delay set after a certain set time.",
+	"descriptionKey": "graph_delay_set_description",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"js": "CGDelaySet.js",
+	"onlineWebsite": "graph_delay_set_website"
+}

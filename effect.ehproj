@@ -1,7 +1,7 @@
 {
   "name": "Untitled",
-  "lastModified": "Thu, 30 Apr 2026 05:09:37 GMT",
-  "version": "5.9.1",
+  "lastModified": "Mon, 18 May 2026 08:03:41 GMT",
+  "version": "5.10.0",
   "renderNames": {
     "0": "Default Layer",
     "1": "Layer 1",
@@ -68,9 +68,9 @@
     "62": "Layer 62",
     "63": "Layer 63"
   },
-  "durationToCreate": 164294709,
-  "durationCreation": 101563137,
-  "durationBackground": 80006378,
+  "durationToCreate": 1729938457,
+  "durationCreation": 243980691,
+  "durationBackground": 134455995,
   "effectHint": "",
   "templateID": "templateID_none",
   "overwriteBuiltinGAN": 1,
@@ -87,7 +87,7 @@
   },
   "projectID": "b647a754-57cd-fee5-ac7a-a48c4e677507",
   "isNewCreatedProject": true,
-  "preUpgradeVersion": "5.9.1",
+  "preUpgradeVersion": "5.10.0",
   "soundStartTime": 0,
   "soundSelectedDuration": 0,
   "LastVideoInput": {
@@ -98,9 +98,14 @@
   },
   "fromNewUserGuide": false,
   "selectedIdList": [
-    "amz:Guid(4900742687595520427, 6653909957515334802)"
+    "editor:1d8677e9-f75a-1c23-2894-f29e8fd7fe3e"
   ],
   "lastSceneView": 0,
-  "effectSize": 1202091,
-  "effectPackagePath": "C:\\Users\\LianeCorpuz\\AppData\\Roaming\\EffectHouse\\Instances\\Instance1\\Submit\\package\\effect.zip"
+  "effectSize": 3891728,
+  "effectPackagePath": "C:\\Users\\LianeCorpuz\\AppData\\Roaming\\EffectHouse\\Instances\\Instance1\\Submit\\package\\effect.zip",
+  "effectUploadResult": {
+    "uri": "/obj/tiktok-effect-public-us/effects/effect/5WqMvTdGY5QQHL7enM2wLF_d6d5ad4678fb04392d589eb8f883babc",
+    "url": "https://lf16-effect.tiktokcdn.com//obj/tiktok-effect-public-us/effects/effect/5WqMvTdGY5QQHL7enM2wLF_d6d5ad4678fb04392d589eb8f883babc"
+  },
+  "perfTested": true
 }
